@@ -600,32 +600,18 @@ GATE OF TRUTH
 
 }
 
-.gate-icon{
+.gate-image{
 
-    width:110px;
+    width:320px;
+    max-width:90%;
+    display:block;
+    margin:0 auto 35px;
 
-    height:110px;
+    filter:drop-shadow(0 0 35px rgba(255,210,90,.45));
 
-    margin:auto;
-
-    margin-bottom:25px;
-
-    border-radius:50%;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    background:rgba(214,177,93,.12);
-
-    color:var(--gold);
-
-    font-size:3rem;
+    animation:gateFloat 5s ease-in-out infinite;
 
 }
-
 .gate-card h3{
 
     color:var(--gold);
@@ -957,5 +943,20 @@ RESPONSIVE
         grid-template-columns:1fr;
 
     }
+
+}
+@keyframes gateFloat{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+100%{
+transform:translateY(0);
+}
 
 }
