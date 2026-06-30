@@ -445,31 +445,8 @@ MEET LUMI
 }
 
 .lumi-content{
-
-    display:grid;
-
-    grid-template-columns:1fr 1fr;
-
-    gap:70px;
-
-    align-items:center;
-
-}
-
-.lumi-image{
-
-    position:relative;
-
-}
-
-.lumi-image img{
-
-    max-width:480px;
-
-    margin:auto;
-
-    filter:drop-shadow(0 0 40px rgba(214,177,93,.20));
-
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .lumi-text p{
