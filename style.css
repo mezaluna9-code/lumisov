@@ -933,17 +933,21 @@ transform:translateY(0);
 .product-card{
 
     text-decoration:none;
-
+    text-align:center;
     color:inherit;
 
 }
 
 .product-card img{
 
-    width:100%;
+    width:220px;
 
-    border-radius:18px;
+    max-width:100%;
 
-    margin-bottom:20px;
+    display:block;
+
+    margin:30px auto 20px;
+
+    border-radius:14px;
 
 }
