@@ -930,3 +930,20 @@ transform:translateY(0);
 }
 
 }
+.product-card{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+.product-card img{
+
+    width:100%;
+
+    border-radius:18px;
+
+    margin-bottom:20px;
+
+}
