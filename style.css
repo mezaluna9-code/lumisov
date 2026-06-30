@@ -602,10 +602,10 @@ GATE OF TRUTH
 
 .gate-image{
 
-    width:230px;
-    max-width:90%;
+    width:170px;
+    max-width:80%;
     display:block;
-    margin:0 auto 35px;
+    margin: 20px auto;
 
     filter:drop-shadow(0 0 35px rgba(255,210,90,.45));
 
